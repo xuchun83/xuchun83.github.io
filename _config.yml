@@ -1,35 +1,41 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
+# =============================================================================
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+# =============================================================================
+# This is a drop-in _config.yml for the acad-homepage.github.io template.
+# Upload this file to the ROOT of your forked repository to replace the default one.
+#
+# Template repo: https://github.com/RayeRen/acad-homepage.github.io
+# Deploy target: https://xuchun83.github.io/
+# =============================================================================
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+locale                   : "en-US"
+title                    : "Chun Xu"
+title_separator          : "-"
+name                     : &name "Chun Xu"
+description              : &description "Chun Xu's academic homepage. Junior undergraduate at Central South University. Research in Computer Vision and Multimodal Large Language Models."
+url                      : "https://xuchun83.github.io"
+baseurl                  : ""
+repository               : "xuchun83/xuchun83.github.io"
+words_per_minute         : 200
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
 
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
-# Site Author
+# -----------------------------------------------------------------------------
+# Site Author (controls the LEFT SIDEBAR)
+# -----------------------------------------------------------------------------
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "Chun Xu"
+  avatar           : "profile.png"
+  bio              : "Junior Undergraduate <br/>Central South University"
+  location         : "Changsha / Hefei, China"
   employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  pubmed           :
+  googlescholar    :
+  email            : "xc_anhui0@163.com"
+  wechat           :
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -37,21 +43,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "xuchun83"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -59,46 +63,20 @@ author:
   wikipedia        :
 
 
-# Reading Files
+# -----------------------------------------------------------------------------
+# Reading Files / Build
+# -----------------------------------------------------------------------------
 include:
   - .htaccess
   - _pages
   - files
-exclude:
-  - docs
-  - google_scholar_crawler
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+# -----------------------------------------------------------------------------
+# Conversion / Markdown
+# -----------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -106,7 +84,9 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+# -----------------------------------------------------------------------------
+# Markdown Processing (kramdown)
+# -----------------------------------------------------------------------------
 kramdown:
   input: GFM
   hard_wrap: false
@@ -117,47 +97,66 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      author_profile: true
 
-
-# Sass/SCSS
+# -----------------------------------------------------------------------------
+# Sass / SCSS
+# -----------------------------------------------------------------------------
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 
+# -----------------------------------------------------------------------------
 # Outputting
+# -----------------------------------------------------------------------------
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
-# Plugins
+# -----------------------------------------------------------------------------
+# Plugins (compatible with GitHub Pages)
+# -----------------------------------------------------------------------------
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+  - jemoji
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jemoji
 
 
+# -----------------------------------------------------------------------------
+# Archives
+# -----------------------------------------------------------------------------
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+# -----------------------------------------------------------------------------
 # HTML Compression
-# - http://jch.penibelst.de/
+# -----------------------------------------------------------------------------
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# -----------------------------------------------------------------------------
+# Defaults (page front matter)
+# -----------------------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
