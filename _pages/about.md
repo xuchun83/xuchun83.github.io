@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Chun Xu — CSU · Rank 4/124 · CV & Multimodal LLMs · Seeking MSc/PhD Fall 2027"
+excerpt: "Chun Xu — Central South University · Rank 4/124 · Seeking MSc Fall 2027"
 author_profile: true
 redirect_from:
   - /about/
@@ -14,7 +14,7 @@ redirect_from:
 
 Hi! I'm **Chun Xu** (徐纯), a third-year undergraduate in **Data Science and Big Data Technology** at the [School of Computer Science](http://cse.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (985 / Double First Class).
 
-**I am applying for postgraduate recommendation (Tuibao 2026) and seeking a supervised Master's or Ph.D. position starting Fall 2027.** My focus is **computer vision and multimodal large models** — fine-grained retrieval, efficient fine-tuning (LoRA / Adapters), and learning-to-rank (including GRPO). I am looking for a group where I can grow into an independent researcher; if our interests align, I would be grateful for a conversation.
+**I am applying for postgraduate recommendation (Tuibao 2026) and seeking a supervised Master's (MSc) position starting Fall 2027.** My focus is **computer vision and multimodal large models** — fine-grained retrieval, efficient fine-tuning (LoRA / Adapters), and learning-to-rank (including GRPO). If our interests align, I would be grateful for a conversation.
 
 | | |
 |---|---|
