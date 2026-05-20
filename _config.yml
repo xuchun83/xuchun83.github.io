@@ -6,7 +6,7 @@
 
 # Site Settings
 title                    : "Chun Xu"
-description              : "Chun Xu · CSU · Rank 4/124 · CV & MLLMs · Seeking MSc/PhD Fall 2027"
+description              : ""
 repository               : "xuchun83/xuchun83.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :
 author:
   name             : "Chun Xu"
   avatar           : "images/profile.png"
-  bio              : "Rank 4/124 · GPA 90.97<br/>CV & Multimodal LLMs<br/>Seeking MSc/PhD · Fall 2027"
+  bio              : "Central South University"
   location         : "Changsha, China"
   employer         :
   pubmed           :
