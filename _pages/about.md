@@ -1,4 +1,3 @@
-
 ---
 permalink: /
 title: ""
@@ -18,6 +17,7 @@ Hi! I'm **Chun Xu** (徐纯), a third-year undergraduate in **Data Science and B
 **I am applying for postgraduate recommendation (Tuibao 2026) and seeking a supervised Master's (MSc) position starting Fall 2027.** My focus is **computer vision and multimodal large models** — fine-grained retrieval, efficient fine-tuning (LoRA / Adapters), and learning-to-rank (including GRPO). If our interests align, I would be grateful for a conversation.
 
 | | |
+|---|---|
 | **Rank** | **4 / 124** (Top 3.2%) |
 | **GPA** | **90.97 / 100** |
 | **English** | CET-6 **520** |
@@ -80,7 +80,7 @@ Two-stage **MS-Loss retrieval + Qwen2.5-VL / LoRA pairwise re-rank** on CUB-200;
 <span class='anchor' id='honors'></span>
 
 # 🎖 Honors
-- **Provincial undergraduate innovation project** — concluded + **software copyright**
 - **National College Student Market Survey & Analysis Competition** — **national second prize** 
+- **Provincial undergraduate innovation project** — concluded + **software copyright**
 - **National Encouragement Scholarship** ×2 (Ministry of Education)
 - **First-Class Academic Scholarship**, CSU ×2
