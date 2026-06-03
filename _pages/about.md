@@ -32,8 +32,9 @@ I have hands-on experience reproducing papers, running ablations on GPU, and bui
 
 # 🔥 News
 
+- *2026.05*: 🥇 **National First Prize**, 10th National College Student Market Survey & Analysis Competition.
+- *2026.05*: 🏅 **Provincial Second Prize**, China Collegiate Computing Contest (Computer Design).
 - *2026.04*: 🎯 FGIR project completed: **Recall@1 66%** on CUB-200 (+12 pts vs. MS-Loss); **GRPO** re-ranking in progress.
-- *2026.03*: 🏅 **National Second Prize**, 10th National College Student Market Survey & Analysis Competition (*2025.12 – 2026.03*).
 - *2025.11*: 🎉 Provincial innovation project (**RETFound + bi-eye CFP**) concluded; **software copyright** registered.
 - *2025.10*: 🩺 Bi-eye CFP model: **AUC +2.23%**, **F1 +2.82%**, **+7.3%** glaucoma accuracy vs. baselines.
 
@@ -80,7 +81,9 @@ Two-stage **MS-Loss retrieval + Qwen2.5-VL / LoRA pairwise re-rank** on CUB-200;
 <span class='anchor' id='honors'></span>
 
 # 🎖 Honors
-- **National College Student Market Survey & Analysis Competition** — **national second prize** 
+
+- **National College Student Market Survey & Analysis Competition** — **national first prize** (May 2026)
+- **China Collegiate Computing Contest** (Computer Design) — **provincial second prize** (May 2026)
 - **Provincial undergraduate innovation project** — concluded + **software copyright**
 - **National Encouragement Scholarship** ×2 (Ministry of Education)
 - **First-Class Academic Scholarship**, CSU ×2
